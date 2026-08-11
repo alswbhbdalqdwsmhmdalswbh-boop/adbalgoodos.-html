@@ -1,0 +1,87 @@
+/* 🎨 تصميم موحد لكل الصفحات */
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== العنوان الرئيسي ===== */
+header {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== شريط التنقل ===== */
+nav {
+    background-color: #006699;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* ===== المحتوى ===== */
+main {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* ===== أقسام الصفحة ===== */
+section {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* ===== الصور ===== */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* ===== الفوتر ===== */
+footer {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* ===== النصائح ===== */
+.tip {
+    background-color: #e8f9e9;
+    border-right: 5px solid #2ecc71;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* ===== القوائم ===== */
+ul, ol {
+    padding-right: 25px;
+}
